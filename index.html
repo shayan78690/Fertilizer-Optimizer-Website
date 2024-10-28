@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Fertilizer Optimizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sustainable Fertilizer Optimizer</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Optimize Your Fertilizer Usage</h1>
+            <p><b>Upload your soil health report to get a precise recommendation.</b></p>
+            <br>
+            <a href="#upload-section" class="btn">Upload Report</a>
+        </div>
+    </section>
+
+    <section id="upload-section" class="upload-section">
+        <h2>Upload Soil Health Report</h2>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="soil-report">Choose a PDF file:</label>
+            <input type="file" id="soil-report" name="soil_report" accept=".pdf" required>
+            <label for="crop-type">Crop Type:</label>
+            <input type="text" id="crop-type" name="crop_type" placeholder="Enter crop type..." required>
+            <br>
+            <br>
+            <button type="submit" class="btn">Get Recommendation</button>
+        </form>
+        <div id="recommendation"></div>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Features</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <h3>Upload and Analyze</h3>
+                <p>Upload your soil health report, and we'll take care of the rest.</p>
+            </div>
+            <div class="feature-box">
+                <h3>AI-Powered Recommendations</h3>
+                <p>Receive accurate fertilizer recommendations based on your soil health.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Easy to Use</h3>
+                <p>Get started quickly with just a few clicks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We help farmers optimize fertilizer usage by providing accurate recommendations based on soil health reports.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: support@sustainablefertilizer.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sustainable Fertilizer Optimizer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
